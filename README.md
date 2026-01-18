@@ -17,20 +17,22 @@ It combines the advantages of **Data-Driven**, **Keyword-Driven**, and **Modular
 ---
 
 ## 🧱 Framework Structure
+```text
 Hybrid_Framework
 │
 ├── src/main/java
-│ ├── base → Browser & driver setup
-│ ├── config → Configuration files
-│ ├── utilities → Common utility methods
+│   ├── base        → Browser & driver setup
+│   ├── config      → Configuration files
+│   ├── utilities   → Common utility methods
 │
 ├── src/test/java
-│ ├── testcases → Test scripts
+│   ├── testcases   → Test scripts
 │
-├── test-output → TestNG reports
-├── pom.xml → Maven dependencies
+├── test-output     → TestNG reports
+├── pom.xml         → Maven dependencies
 ├── README.md
 └── .gitignore
+
 
 ---
 
